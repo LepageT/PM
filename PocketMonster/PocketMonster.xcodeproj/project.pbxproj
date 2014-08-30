@@ -202,6 +202,14 @@
 		E945182B19AF64550032C77D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E945182A19AF64550032C77D /* AppDelegate.m */; };
 		E945182E19AF64550032C77D /* HelloWorldScene.m in Sources */ = {isa = PBXBuildFile; fileRef = E945182D19AF64550032C77D /* HelloWorldScene.m */; };
 		E945183119AF64550032C77D /* IntroScene.m in Sources */ = {isa = PBXBuildFile; fileRef = E945183019AF64550032C77D /* IntroScene.m */; };
+		E9EC95AF19B1F80D001FF4D1 /* PlayerStats.m in Sources */ = {isa = PBXBuildFile; fileRef = E9EC95AE19B1F80D001FF4D1 /* PlayerStats.m */; };
+		E9EC95B219B1F820001FF4D1 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = E9EC95B119B1F820001FF4D1 /* Player.m */; };
+		E9EC95B519B1F832001FF4D1 /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = E9EC95B419B1F832001FF4D1 /* Character.m */; };
+		E9EC95B819B1F846001FF4D1 /* Monster.m in Sources */ = {isa = PBXBuildFile; fileRef = E9EC95B719B1F846001FF4D1 /* Monster.m */; };
+		E9EC95BE19B1F870001FF4D1 /* MonsterStats.m in Sources */ = {isa = PBXBuildFile; fileRef = E9EC95BD19B1F86F001FF4D1 /* MonsterStats.m */; };
+		E9EC95C119B1F87D001FF4D1 /* Move.m in Sources */ = {isa = PBXBuildFile; fileRef = E9EC95C019B1F87D001FF4D1 /* Move.m */; };
+		E9EC95C419B1F892001FF4D1 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = E9EC95C319B1F892001FF4D1 /* Item.m */; };
+		E9EC95C719B1FBA4001FF4D1 /* Statut.m in Sources */ = {isa = PBXBuildFile; fileRef = E9EC95C619B1FBA4001FF4D1 /* Statut.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -613,6 +621,23 @@
 		E945182D19AF64550032C77D /* HelloWorldScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HelloWorldScene.m; path = Classes/HelloWorldScene.m; sourceTree = "<group>"; };
 		E945182F19AF64550032C77D /* IntroScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IntroScene.h; path = Classes/IntroScene.h; sourceTree = "<group>"; };
 		E945183019AF64550032C77D /* IntroScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = IntroScene.m; path = Classes/IntroScene.m; sourceTree = "<group>"; };
+		E9EC95AD19B1F80D001FF4D1 /* PlayerStats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayerStats.h; path = Classes/Objects/PlayerStats.h; sourceTree = "<group>"; };
+		E9EC95AE19B1F80D001FF4D1 /* PlayerStats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayerStats.m; path = Classes/Objects/PlayerStats.m; sourceTree = "<group>"; };
+		E9EC95B019B1F820001FF4D1 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Player.h; path = Classes/Objects/Player.h; sourceTree = "<group>"; };
+		E9EC95B119B1F820001FF4D1 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Player.m; path = Classes/Objects/Player.m; sourceTree = "<group>"; };
+		E9EC95B319B1F832001FF4D1 /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Character.h; path = Classes/Objects/Character.h; sourceTree = "<group>"; };
+		E9EC95B419B1F832001FF4D1 /* Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Character.m; path = Classes/Objects/Character.m; sourceTree = "<group>"; };
+		E9EC95B619B1F846001FF4D1 /* Monster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Monster.h; path = Classes/Objects/Monster.h; sourceTree = "<group>"; };
+		E9EC95B719B1F846001FF4D1 /* Monster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Monster.m; path = Classes/Objects/Monster.m; sourceTree = "<group>"; };
+		E9EC95BC19B1F86F001FF4D1 /* MonsterStats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MonsterStats.h; path = Classes/Objects/MonsterStats.h; sourceTree = "<group>"; };
+		E9EC95BD19B1F86F001FF4D1 /* MonsterStats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MonsterStats.m; path = Classes/Objects/MonsterStats.m; sourceTree = "<group>"; };
+		E9EC95BF19B1F87D001FF4D1 /* Move.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Move.h; path = Classes/Objects/Move.h; sourceTree = "<group>"; };
+		E9EC95C019B1F87D001FF4D1 /* Move.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Move.m; path = Classes/Objects/Move.m; sourceTree = "<group>"; };
+		E9EC95C219B1F892001FF4D1 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Item.h; path = Classes/Objects/Item.h; sourceTree = "<group>"; };
+		E9EC95C319B1F892001FF4D1 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Item.m; path = Classes/Objects/Item.m; sourceTree = "<group>"; };
+		E9EC95C519B1FBA4001FF4D1 /* Statut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Statut.h; path = Classes/Objects/Statut.h; sourceTree = "<group>"; };
+		E9EC95C619B1FBA4001FF4D1 /* Statut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Statut.m; path = Classes/Objects/Statut.m; sourceTree = "<group>"; };
+		E9EC95C819B1FC15001FF4D1 /* Coordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Coordinate.h; path = Classes/Objects/Coordinate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1423,6 +1448,7 @@
 		E945182819AF64550032C77D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				E9EC95AC19B1F7E1001FF4D1 /* Objects */,
 				E945182919AF64550032C77D /* AppDelegate.h */,
 				E945182A19AF64550032C77D /* AppDelegate.m */,
 				E945182C19AF64550032C77D /* HelloWorldScene.h */,
@@ -1431,6 +1457,54 @@
 				E945183019AF64550032C77D /* IntroScene.m */,
 			);
 			name = Classes;
+			sourceTree = "<group>";
+		};
+		E9EC95AC19B1F7E1001FF4D1 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				E9EC95CD19B23671001FF4D1 /* Monster */,
+				E9EC95CC19B23665001FF4D1 /* Items */,
+				E9EC95CB19B2364F001FF4D1 /* Character */,
+				E9EC95C819B1FC15001FF4D1 /* Coordinate.h */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		E9EC95CB19B2364F001FF4D1 /* Character */ = {
+			isa = PBXGroup;
+			children = (
+				E9EC95AD19B1F80D001FF4D1 /* PlayerStats.h */,
+				E9EC95AE19B1F80D001FF4D1 /* PlayerStats.m */,
+				E9EC95B019B1F820001FF4D1 /* Player.h */,
+				E9EC95B119B1F820001FF4D1 /* Player.m */,
+				E9EC95B319B1F832001FF4D1 /* Character.h */,
+				E9EC95B419B1F832001FF4D1 /* Character.m */,
+			);
+			name = Character;
+			sourceTree = "<group>";
+		};
+		E9EC95CC19B23665001FF4D1 /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				E9EC95C219B1F892001FF4D1 /* Item.h */,
+				E9EC95C319B1F892001FF4D1 /* Item.m */,
+			);
+			name = Items;
+			sourceTree = "<group>";
+		};
+		E9EC95CD19B23671001FF4D1 /* Monster */ = {
+			isa = PBXGroup;
+			children = (
+				E9EC95BC19B1F86F001FF4D1 /* MonsterStats.h */,
+				E9EC95BD19B1F86F001FF4D1 /* MonsterStats.m */,
+				E9EC95B619B1F846001FF4D1 /* Monster.h */,
+				E9EC95B719B1F846001FF4D1 /* Monster.m */,
+				E9EC95BF19B1F87D001FF4D1 /* Move.h */,
+				E9EC95C019B1F87D001FF4D1 /* Move.m */,
+				E9EC95C519B1FBA4001FF4D1 /* Statut.h */,
+				E9EC95C619B1FBA4001FF4D1 /* Statut.m */,
+			);
+			name = Monster;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1544,6 +1618,7 @@
 				E94516F619AF64540032C77D /* CCGLView.m in Sources */,
 				E94516E919AF64540032C77D /* CCGLView.m in Sources */,
 				E945174119AF64540032C77D /* OALSimpleAudio.m in Sources */,
+				E9EC95B819B1F846001FF4D1 /* Monster.m in Sources */,
 				E94516A919AF64540032C77D /* CCScene.m in Sources */,
 				E94516D119AF64540032C77D /* CCTiledMapObjectGroup.m in Sources */,
 				E945172319AF64540032C77D /* ZipUtils.m in Sources */,
@@ -1587,6 +1662,7 @@
 				E945161B19AF64530032C77D /* CCRenderer.m in Sources */,
 				E94516B019AF64540032C77D /* CCSprite.m in Sources */,
 				E945173819AF64540032C77D /* OALAudioTrack.m in Sources */,
+				E9EC95C119B1F87D001FF4D1 /* Move.m in Sources */,
 				E945177919AF64540032C77D /* NSMutableDictionary+WeakReferences.m in Sources */,
 				E945163719AF64530032C77D /* CCActionManager.m in Sources */,
 				E945169919AF64540032C77D /* CCProgressNode.m in Sources */,
@@ -1599,6 +1675,7 @@
 				E945177619AF64540032C77D /* NSMutableArray+WeakReferences.m in Sources */,
 				E945176419AF64540032C77D /* OpenALManager.m in Sources */,
 				E94516D419AF64540032C77D /* CCTMXXMLParser.m in Sources */,
+				E9EC95C719B1FBA4001FF4D1 /* Statut.m in Sources */,
 				E945170919AF64540032C77D /* CCProfiling.m in Sources */,
 				E945176B19AF64540032C77D /* OALSuspendHandler.m in Sources */,
 				E945179919AF64540032C77D /* CCTextField.m in Sources */,
@@ -1611,6 +1688,7 @@
 				E945161019AF64530032C77D /* CCEffectPixellate.m in Sources */,
 				E94517AE19AF64550032C77D /* CCBSequenceProperty.m in Sources */,
 				E945165E19AF64530032C77D /* CCLabelTTF.m in Sources */,
+				E9EC95C419B1F892001FF4D1 /* Item.m in Sources */,
 				E945175D19AF64540032C77D /* ALSource.m in Sources */,
 				E945178019AF64540032C77D /* OALTools.m in Sources */,
 				E94516DB19AF64540032C77D /* cocos2d.m in Sources */,
@@ -1630,6 +1708,7 @@
 				E945160C19AF64530032C77D /* CCEffectColorPulse.m in Sources */,
 				E94516A219AF64540032C77D /* CCResponder.m in Sources */,
 				E945169E19AF64540032C77D /* CCRenderTexture.m in Sources */,
+				E9EC95B219B1F820001FF4D1 /* Player.m in Sources */,
 				E945165619AF64530032C77D /* ccFPSImages.m in Sources */,
 				E945176819AF64540032C77D /* OALAudioSession.m in Sources */,
 				E94516F919AF64540032C77D /* CCWindow.m in Sources */,
@@ -1657,11 +1736,14 @@
 				E945173119AF64540032C77D /* OALAudioActions.m in Sources */,
 				E945182B19AF64550032C77D /* AppDelegate.m in Sources */,
 				E94516E219AF64540032C77D /* CCDirectorIOS.m in Sources */,
+				E9EC95BE19B1F870001FF4D1 /* MonsterStats.m in Sources */,
 				E945167C19AF64540032C77D /* CCParticleBatchNode.m in Sources */,
 				E945171619AF64540032C77D /* NSAttributedString+CCAdditions.m in Sources */,
 				E945182719AF64550032C77D /* main.m in Sources */,
 				E945183119AF64550032C77D /* IntroScene.m in Sources */,
+				E9EC95AF19B1F80D001FF4D1 /* PlayerStats.m in Sources */,
 				E945161419AF64530032C77D /* CCEffectStack.m in Sources */,
+				E9EC95B519B1F832001FF4D1 /* Character.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1859,6 +1941,7 @@
 				E945183619AF64550032C77D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E945183719AF64550032C77D /* Build configuration list for PBXNativeTarget "PocketMonster" */ = {
 			isa = XCConfigurationList;
@@ -1867,6 +1950,7 @@
 				E945183919AF64550032C77D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

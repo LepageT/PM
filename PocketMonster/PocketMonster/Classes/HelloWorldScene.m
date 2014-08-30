@@ -9,6 +9,7 @@
 
 #import "HelloWorldScene.h"
 #import "IntroScene.h"
+#import "Character.h"
 
 // -----------------------------------------------------------------------
 #pragma mark - HelloWorldScene
