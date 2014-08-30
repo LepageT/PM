@@ -1,5 +1,5 @@
 //
-//  Item.h
+//  Revive.h
 //  PocketMonster
 //
 //  Created by Thomas Lepage on 2014-08-30.
@@ -7,9 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Item.h"
 
-@interface Item : NSObject
+@interface Revive : Item
 
-@property (getter = getId) int itemId;
+
 
 @end

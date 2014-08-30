@@ -1,5 +1,5 @@
 //
-//  Item.h
+//  Ball.h
 //  PocketMonster
 //
 //  Created by Thomas Lepage on 2014-08-30.
@@ -7,9 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Item.h"
 
-@interface Item : NSObject
-
-@property (getter = getId) int itemId;
+@interface Ball : Item
 
 @end

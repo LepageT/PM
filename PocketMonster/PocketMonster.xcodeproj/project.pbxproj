@@ -210,6 +210,10 @@
 		E9EC95C119B1F87D001FF4D1 /* Move.m in Sources */ = {isa = PBXBuildFile; fileRef = E9EC95C019B1F87D001FF4D1 /* Move.m */; };
 		E9EC95C419B1F892001FF4D1 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = E9EC95C319B1F892001FF4D1 /* Item.m */; };
 		E9EC95C719B1FBA4001FF4D1 /* Statut.m in Sources */ = {isa = PBXBuildFile; fileRef = E9EC95C619B1FBA4001FF4D1 /* Statut.m */; };
+		E9EC95D019B250CA001FF4D1 /* Potion.m in Sources */ = {isa = PBXBuildFile; fileRef = E9EC95CF19B250CA001FF4D1 /* Potion.m */; };
+		E9EC95D319B250D9001FF4D1 /* Revive.m in Sources */ = {isa = PBXBuildFile; fileRef = E9EC95D219B250D9001FF4D1 /* Revive.m */; };
+		E9EC95D619B25110001FF4D1 /* Ball.m in Sources */ = {isa = PBXBuildFile; fileRef = E9EC95D519B25110001FF4D1 /* Ball.m */; };
+		E9EC95DC19B253A2001FF4D1 /* Trainer.m in Sources */ = {isa = PBXBuildFile; fileRef = E9EC95DB19B253A2001FF4D1 /* Trainer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -638,6 +642,14 @@
 		E9EC95C519B1FBA4001FF4D1 /* Statut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Statut.h; path = Classes/Objects/Statut.h; sourceTree = "<group>"; };
 		E9EC95C619B1FBA4001FF4D1 /* Statut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Statut.m; path = Classes/Objects/Statut.m; sourceTree = "<group>"; };
 		E9EC95C819B1FC15001FF4D1 /* Coordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Coordinate.h; path = Classes/Objects/Coordinate.h; sourceTree = "<group>"; };
+		E9EC95CE19B250CA001FF4D1 /* Potion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Potion.h; path = Classes/Objects/Potion.h; sourceTree = "<group>"; };
+		E9EC95CF19B250CA001FF4D1 /* Potion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Potion.m; path = Classes/Objects/Potion.m; sourceTree = "<group>"; };
+		E9EC95D119B250D9001FF4D1 /* Revive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Revive.h; path = Classes/Objects/Revive.h; sourceTree = "<group>"; };
+		E9EC95D219B250D9001FF4D1 /* Revive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Revive.m; path = Classes/Objects/Revive.m; sourceTree = "<group>"; };
+		E9EC95D419B25110001FF4D1 /* Ball.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Ball.h; path = Classes/Objects/Ball.h; sourceTree = "<group>"; };
+		E9EC95D519B25110001FF4D1 /* Ball.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Ball.m; path = Classes/Objects/Ball.m; sourceTree = "<group>"; };
+		E9EC95DA19B253A2001FF4D1 /* Trainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Trainer.h; path = Classes/Objects/Trainer.h; sourceTree = "<group>"; };
+		E9EC95DB19B253A2001FF4D1 /* Trainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Trainer.m; path = Classes/Objects/Trainer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1479,6 +1491,8 @@
 				E9EC95B119B1F820001FF4D1 /* Player.m */,
 				E9EC95B319B1F832001FF4D1 /* Character.h */,
 				E9EC95B419B1F832001FF4D1 /* Character.m */,
+				E9EC95DA19B253A2001FF4D1 /* Trainer.h */,
+				E9EC95DB19B253A2001FF4D1 /* Trainer.m */,
 			);
 			name = Character;
 			sourceTree = "<group>";
@@ -1488,6 +1502,12 @@
 			children = (
 				E9EC95C219B1F892001FF4D1 /* Item.h */,
 				E9EC95C319B1F892001FF4D1 /* Item.m */,
+				E9EC95CE19B250CA001FF4D1 /* Potion.h */,
+				E9EC95CF19B250CA001FF4D1 /* Potion.m */,
+				E9EC95D119B250D9001FF4D1 /* Revive.h */,
+				E9EC95D219B250D9001FF4D1 /* Revive.m */,
+				E9EC95D419B25110001FF4D1 /* Ball.h */,
+				E9EC95D519B25110001FF4D1 /* Ball.m */,
 			);
 			name = Items;
 			sourceTree = "<group>";
@@ -1613,6 +1633,7 @@
 				E94517A819AF64550032C77D /* CCBReader.m in Sources */,
 				E945174719AF64540032C77D /* ALBuffer.m in Sources */,
 				E945174D19AF64540032C77D /* ALChannelSource.m in Sources */,
+				E9EC95DC19B253A2001FF4D1 /* Trainer.m in Sources */,
 				E945177019AF64540032C77D /* IOSVersion.m in Sources */,
 				E945175619AF64540032C77D /* ALListener.m in Sources */,
 				E94516F619AF64540032C77D /* CCGLView.m in Sources */,
@@ -1631,6 +1652,7 @@
 				E94517A219AF64540032C77D /* CCBAnimationManager.m in Sources */,
 				E945171019AF64540032C77D /* CCVertex.m in Sources */,
 				E945182E19AF64550032C77D /* HelloWorldScene.m in Sources */,
+				E9EC95D319B250D9001FF4D1 /* Revive.m in Sources */,
 				E945164419AF64530032C77D /* CCAnimationCache.m in Sources */,
 				E94516FE19AF64540032C77D /* base64.c in Sources */,
 				E945168719AF64540032C77D /* CCParticleSystemBase.m in Sources */,
@@ -1646,6 +1668,7 @@
 				E945167419AF64540032C77D /* CCNode+Debug.m in Sources */,
 				E945161219AF64530032C77D /* CCEffectNode.m in Sources */,
 				E945168C19AF64540032C77D /* CCPhysicsBody.m in Sources */,
+				E9EC95D619B25110001FF4D1 /* Ball.m in Sources */,
 				E94516FC19AF64540032C77D /* NSEvent+CC.m in Sources */,
 				E945175319AF64540032C77D /* ALDevice.m in Sources */,
 				E945171919AF64540032C77D /* NSThread+performBlock.m in Sources */,
@@ -1667,6 +1690,7 @@
 				E945163719AF64530032C77D /* CCActionManager.m in Sources */,
 				E945169919AF64540032C77D /* CCProgressNode.m in Sources */,
 				E94516A519AF64540032C77D /* CCResponderManager.m in Sources */,
+				E9EC95D019B250CA001FF4D1 /* Potion.m in Sources */,
 				E94516D719AF64540032C77D /* CCTransition.m in Sources */,
 				E945172E19AF64540032C77D /* OALActionManager.m in Sources */,
 				E945169219AF64540032C77D /* CCPhysicsNode.m in Sources */,
