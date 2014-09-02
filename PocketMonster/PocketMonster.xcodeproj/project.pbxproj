@@ -215,6 +215,7 @@
 		E9EC95D619B25110001FF4D1 /* Ball.m in Sources */ = {isa = PBXBuildFile; fileRef = E9EC95D519B25110001FF4D1 /* Ball.m */; };
 		E9EC95DC19B253A2001FF4D1 /* Trainer.m in Sources */ = {isa = PBXBuildFile; fileRef = E9EC95DB19B253A2001FF4D1 /* Trainer.m */; };
 		E9EC95E319B5D596001FF4D1 /* trainers.sql in Resources */ = {isa = PBXBuildFile; fileRef = E9EC95E219B5D596001FF4D1 /* trainers.sql */; };
+		E9EC95E519B5D5E2001FF4D1 /* database.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9EC95E419B5D5E2001FF4D1 /* database.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -652,6 +653,7 @@
 		E9EC95DA19B253A2001FF4D1 /* Trainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Trainer.h; path = Classes/Objects/Trainer.h; sourceTree = "<group>"; };
 		E9EC95DB19B253A2001FF4D1 /* Trainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Trainer.m; path = Classes/Objects/Trainer.m; sourceTree = "<group>"; };
 		E9EC95E219B5D596001FF4D1 /* trainers.sql */ = {isa = PBXFileReference; lastKnownFileType = file; name = trainers.sql; path = Resources/trainers.sql; sourceTree = "<group>"; };
+		E9EC95E419B5D5E2001FF4D1 /* database.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = database.txt; path = Resources/database.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1533,6 +1535,7 @@
 		E9EC95DD19B2689E001FF4D1 /* Trainer */ = {
 			isa = PBXGroup;
 			children = (
+				E9EC95E419B5D5E2001FF4D1 /* database.txt */,
 				E9EC95E219B5D596001FF4D1 /* trainers.sql */,
 			);
 			name = Trainer;
@@ -1613,6 +1616,7 @@
 				E94515DB19AF64530032C77D /* Icon-72@2x.png in Resources */,
 				E94515CC19AF64530032C77D /* Default.png in Resources */,
 				E94515D519AF64530032C77D /* Icon.png in Resources */,
+				E9EC95E519B5D5E2001FF4D1 /* database.txt in Resources */,
 				E94515E319AF64530032C77D /* Icon-iPad-Spotlight-iOS7@2x.png in Resources */,
 				E94515D219AF64530032C77D /* Default-Landscape~ipad.png in Resources */,
 				E94515E719AF64530032C77D /* Icon-Small.png in Resources */,
