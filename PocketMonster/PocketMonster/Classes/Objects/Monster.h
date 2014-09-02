@@ -20,6 +20,9 @@
 @property MonsterStats *stats;
 @property Item *item;
 @property Statut *statut;
+//isDead should be in the stats.
 @property (getter = isDead) BOOL dead;
+
+-(id)initWithId:(int)monsterId;
 
 @end

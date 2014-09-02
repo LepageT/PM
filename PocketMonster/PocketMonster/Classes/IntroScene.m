@@ -10,7 +10,7 @@
 // Import the interfaces
 #import "IntroScene.h"
 #import "HelloWorldScene.h"
-
+#import "Monster.h"
 // -----------------------------------------------------------------------
 #pragma mark - IntroScene
 // -----------------------------------------------------------------------
@@ -23,6 +23,7 @@
 
 + (IntroScene *)scene
 {
+    Monster *m = [[Monster alloc] initWithId:1];
 	return [[self alloc] init];
 }
 
