@@ -10,4 +10,14 @@
 
 @implementation Trainer
 
+-(id)initWithId:(int)trainerId
+{
+    self = [super init];
+    
+    self.characterId = trainerId;
+    //TODO get the info of the trainer in the DB.
+    
+    return self;
+}
+
 @end

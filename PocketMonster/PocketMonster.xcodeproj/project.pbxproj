@@ -214,6 +214,7 @@
 		E9EC95D319B250D9001FF4D1 /* Revive.m in Sources */ = {isa = PBXBuildFile; fileRef = E9EC95D219B250D9001FF4D1 /* Revive.m */; };
 		E9EC95D619B25110001FF4D1 /* Ball.m in Sources */ = {isa = PBXBuildFile; fileRef = E9EC95D519B25110001FF4D1 /* Ball.m */; };
 		E9EC95DC19B253A2001FF4D1 /* Trainer.m in Sources */ = {isa = PBXBuildFile; fileRef = E9EC95DB19B253A2001FF4D1 /* Trainer.m */; };
+		E9EC95E319B5D596001FF4D1 /* trainers.sql in Resources */ = {isa = PBXBuildFile; fileRef = E9EC95E219B5D596001FF4D1 /* trainers.sql */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -650,6 +651,7 @@
 		E9EC95D519B25110001FF4D1 /* Ball.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Ball.m; path = Classes/Objects/Ball.m; sourceTree = "<group>"; };
 		E9EC95DA19B253A2001FF4D1 /* Trainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Trainer.h; path = Classes/Objects/Trainer.h; sourceTree = "<group>"; };
 		E9EC95DB19B253A2001FF4D1 /* Trainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Trainer.m; path = Classes/Objects/Trainer.m; sourceTree = "<group>"; };
+		E9EC95E219B5D596001FF4D1 /* trainers.sql */ = {isa = PBXFileReference; lastKnownFileType = file; name = trainers.sql; path = Resources/trainers.sql; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -723,6 +725,7 @@
 		E94515CA19AF64530032C77D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E9EC95DD19B2689E001FF4D1 /* Trainer */,
 				E94515CB19AF64530032C77D /* Default.png */,
 				E94515CD19AF64530032C77D /* Default@2x.png */,
 				E94515CF19AF64530032C77D /* Default-568h@2x.png */,
@@ -1527,6 +1530,14 @@
 			name = Monster;
 			sourceTree = "<group>";
 		};
+		E9EC95DD19B2689E001FF4D1 /* Trainer */ = {
+			isa = PBXGroup;
+			children = (
+				E9EC95E219B5D596001FF4D1 /* trainers.sql */,
+			);
+			name = Trainer;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1609,6 +1620,7 @@
 				E945182319AF64550032C77D /* LICENSE_Chipmunk.txt in Resources */,
 				E94515D919AF64530032C77D /* Icon-72.png in Resources */,
 				E94517B519AF64550032C77D /* LICENSE_CCBReader.txt in Resources */,
+				E9EC95E319B5D596001FF4D1 /* trainers.sql in Resources */,
 				E945172519AF64540032C77D /* LICENSE_cocos2d.txt in Resources */,
 				E94515D019AF64530032C77D /* Default-568h@2x.png in Resources */,
 				E94515F019AF64530032C77D /* iTunesArtwork in Resources */,
