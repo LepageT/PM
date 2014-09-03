@@ -7,7 +7,27 @@
 //
 
 #import "Monster.h"
+#import "Repository.h"
 
 @implementation Monster
+
+-(id)init
+{
+    self = [super init];
+    
+    if(self)
+    {
+    }
+    
+    return self;
+}
+
+-(id)initWithId:(int)monsterId
+{
+    Repository *r = [[Repository alloc] init];
+        
+    return [r createMonsterWithId:monsterId];
+    
+}
 
 @end

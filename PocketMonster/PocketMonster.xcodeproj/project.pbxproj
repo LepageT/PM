@@ -202,6 +202,13 @@
 		E945182B19AF64550032C77D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E945182A19AF64550032C77D /* AppDelegate.m */; };
 		E945182E19AF64550032C77D /* HelloWorldScene.m in Sources */ = {isa = PBXBuildFile; fileRef = E945182D19AF64550032C77D /* HelloWorldScene.m */; };
 		E945183119AF64550032C77D /* IntroScene.m in Sources */ = {isa = PBXBuildFile; fileRef = E945183019AF64550032C77D /* IntroScene.m */; };
+		E9AD2D8619B639D400BBF336 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9AD2D8519B639D400BBF336 /* XCTest.framework */; };
+		E9AD2D8719B639D500BBF336 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E94515BB19AF64530032C77D /* Foundation.framework */; };
+		E9AD2D8819B639D500BBF336 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E94515B919AF64530032C77D /* UIKit.framework */; };
+		E9AD2D8E19B639D500BBF336 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9AD2D8C19B639D500BBF336 /* InfoPlist.strings */; };
+		E9AD2D9019B639D500BBF336 /* PocketMonster_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9AD2D8F19B639D500BBF336 /* PocketMonster_Tests.m */; };
+		E9AD2D9919B63B4000BBF336 /* Repository.m in Sources */ = {isa = PBXBuildFile; fileRef = E9AD2D9819B63B4000BBF336 /* Repository.m */; };
+		E9AD2D9E19B63E9000BBF336 /* MonsterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E9AD2D9D19B63E9000BBF336 /* MonsterTest.m */; };
 		E9EC95AF19B1F80D001FF4D1 /* PlayerStats.m in Sources */ = {isa = PBXBuildFile; fileRef = E9EC95AE19B1F80D001FF4D1 /* PlayerStats.m */; };
 		E9EC95B219B1F820001FF4D1 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = E9EC95B119B1F820001FF4D1 /* Player.m */; };
 		E9EC95B519B1F832001FF4D1 /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = E9EC95B419B1F832001FF4D1 /* Character.m */; };
@@ -225,6 +232,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = E94515C419AF64530032C77D;
 			remoteInfo = ObjectiveChipmunk;
+		};
+		E9AD2D9219B639D500BBF336 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E94515A419AF64520032C77D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E94515AB19AF64520032C77D;
+			remoteInfo = PocketMonster;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -627,6 +641,15 @@
 		E945182D19AF64550032C77D /* HelloWorldScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HelloWorldScene.m; path = Classes/HelloWorldScene.m; sourceTree = "<group>"; };
 		E945182F19AF64550032C77D /* IntroScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IntroScene.h; path = Classes/IntroScene.h; sourceTree = "<group>"; };
 		E945183019AF64550032C77D /* IntroScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = IntroScene.m; path = Classes/IntroScene.m; sourceTree = "<group>"; };
+		E9AD2D8419B639D400BBF336 /* PocketMonster Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PocketMonster Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9AD2D8519B639D400BBF336 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E9AD2D8B19B639D500BBF336 /* PocketMonster Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PocketMonster Tests-Info.plist"; sourceTree = "<group>"; };
+		E9AD2D8D19B639D500BBF336 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E9AD2D8F19B639D500BBF336 /* PocketMonster_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PocketMonster_Tests.m; sourceTree = "<group>"; };
+		E9AD2D9119B639D500BBF336 /* PocketMonster Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PocketMonster Tests-Prefix.pch"; sourceTree = "<group>"; };
+		E9AD2D9719B63B4000BBF336 /* Repository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Repository.h; path = Classes/Repository.h; sourceTree = "<group>"; };
+		E9AD2D9819B63B4000BBF336 /* Repository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Repository.m; path = Classes/Repository.m; sourceTree = "<group>"; };
+		E9AD2D9D19B63E9000BBF336 /* MonsterTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonsterTest.m; sourceTree = "<group>"; };
 		E9EC95AD19B1F80D001FF4D1 /* PlayerStats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayerStats.h; path = Classes/Objects/PlayerStats.h; sourceTree = "<group>"; };
 		E9EC95AE19B1F80D001FF4D1 /* PlayerStats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayerStats.m; path = Classes/Objects/PlayerStats.m; sourceTree = "<group>"; };
 		E9EC95B019B1F820001FF4D1 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Player.h; path = Classes/Objects/Player.h; sourceTree = "<group>"; };
@@ -675,6 +698,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E9AD2D8119B639D400BBF336 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9AD2D8619B639D400BBF336 /* XCTest.framework in Frameworks */,
+				E9AD2D8819B639D500BBF336 /* UIKit.framework in Frameworks */,
+				E9AD2D8719B639D500BBF336 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -682,6 +715,7 @@
 			isa = PBXGroup;
 			children = (
 				E94515C919AF64530032C77D /* PocketMonster */,
+				E9AD2D8919B639D500BBF336 /* PocketMonster Tests */,
 				E94515AE19AF64530032C77D /* Frameworks */,
 				E94515AD19AF64530032C77D /* Products */,
 			);
@@ -692,6 +726,7 @@
 			children = (
 				E94515AC19AF64530032C77D /* PocketMonster.app */,
 				E94515C519AF64530032C77D /* libObjectiveChipmunk.a */,
+				E9AD2D8419B639D400BBF336 /* PocketMonster Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -709,6 +744,7 @@
 				E94515BD19AF64530032C77D /* CoreGraphics.framework */,
 				E94515BF19AF64530032C77D /* CoreText.framework */,
 				E94515C119AF64530032C77D /* GLKit.framework */,
+				E9AD2D8519B639D400BBF336 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1472,8 +1508,30 @@
 				E945182D19AF64550032C77D /* HelloWorldScene.m */,
 				E945182F19AF64550032C77D /* IntroScene.h */,
 				E945183019AF64550032C77D /* IntroScene.m */,
+				E9AD2D9719B63B4000BBF336 /* Repository.h */,
+				E9AD2D9819B63B4000BBF336 /* Repository.m */,
 			);
 			name = Classes;
+			sourceTree = "<group>";
+		};
+		E9AD2D8919B639D500BBF336 /* PocketMonster Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E9AD2D8F19B639D500BBF336 /* PocketMonster_Tests.m */,
+				E9AD2D8A19B639D500BBF336 /* Supporting Files */,
+				E9AD2D9D19B63E9000BBF336 /* MonsterTest.m */,
+			);
+			path = "PocketMonster Tests";
+			sourceTree = "<group>";
+		};
+		E9AD2D8A19B639D500BBF336 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9AD2D8B19B639D500BBF336 /* PocketMonster Tests-Info.plist */,
+				E9AD2D8C19B639D500BBF336 /* InfoPlist.strings */,
+				E9AD2D9119B639D500BBF336 /* PocketMonster Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		E9EC95AC19B1F7E1001FF4D1 /* Objects */ = {
@@ -1577,6 +1635,24 @@
 			productReference = E94515C519AF64530032C77D /* libObjectiveChipmunk.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		E9AD2D8319B639D400BBF336 /* PocketMonster Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9AD2D9619B639D500BBF336 /* Build configuration list for PBXNativeTarget "PocketMonster Tests" */;
+			buildPhases = (
+				E9AD2D8019B639D400BBF336 /* Sources */,
+				E9AD2D8119B639D400BBF336 /* Frameworks */,
+				E9AD2D8219B639D400BBF336 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9AD2D9319B639D500BBF336 /* PBXTargetDependency */,
+			);
+			name = "PocketMonster Tests";
+			productName = "PocketMonster Tests";
+			productReference = E9AD2D8419B639D400BBF336 /* PocketMonster Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1600,6 +1676,7 @@
 			targets = (
 				E94515AB19AF64520032C77D /* PocketMonster */,
 				E94515C419AF64530032C77D /* ObjectiveChipmunk */,
+				E9AD2D8319B639D400BBF336 /* PocketMonster Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -1633,6 +1710,14 @@
 				E94515ED19AF64530032C77D /* Icon-Spotlight-iOS7@2x.png in Resources */,
 				E94515DD19AF64530032C77D /* Icon-76.png in Resources */,
 				E94515F219AF64530032C77D /* iTunesArtwork@2x in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9AD2D8219B639D400BBF336 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9AD2D8E19B639D500BBF336 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1746,6 +1831,7 @@
 				E94516AC19AF64540032C77D /* CCScheduler.m in Sources */,
 				E94516CA19AF64540032C77D /* CCTiledMap.m in Sources */,
 				E945160C19AF64530032C77D /* CCEffectColorPulse.m in Sources */,
+				E9AD2D9919B63B4000BBF336 /* Repository.m in Sources */,
 				E94516A219AF64540032C77D /* CCResponder.m in Sources */,
 				E945169E19AF64540032C77D /* CCRenderTexture.m in Sources */,
 				E9EC95B219B1F820001FF4D1 /* Player.m in Sources */,
@@ -1827,6 +1913,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E9AD2D8019B639D400BBF336 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9AD2D9E19B63E9000BBF336 /* MonsterTest.m in Sources */,
+				E9AD2D9019B639D500BBF336 /* PocketMonster_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1835,7 +1930,23 @@
 			target = E94515C419AF64530032C77D /* ObjectiveChipmunk */;
 			targetProxy = E94515C619AF64530032C77D /* PBXContainerItemProxy */;
 		};
+		E9AD2D9319B639D500BBF336 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E94515AB19AF64520032C77D /* PocketMonster */;
+			targetProxy = E9AD2D9219B639D500BBF336 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E9AD2D8C19B639D500BBF336 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9AD2D8D19B639D500BBF336 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E945183219AF64550032C77D /* Debug */ = {
@@ -1854,7 +1965,7 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1874,7 +1985,7 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1928,6 +2039,7 @@
 					"\"$(SRCROOT)/$(PROJECT_NAME)/Libraries/Chipmunk/objectivec/include\"",
 				);
 				INFOPLIST_FILE = PocketMonster/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-lsqlite3",
@@ -1951,6 +2063,7 @@
 					"\"$(SRCROOT)/$(PROJECT_NAME)/Libraries/Chipmunk/objectivec/include\"",
 				);
 				INFOPLIST_FILE = PocketMonster/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-lsqlite3",
@@ -1959,6 +2072,84 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E9AD2D9419B639D500BBF336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PocketMonster Tests/PocketMonster Tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "PocketMonster Tests/PocketMonster Tests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E9AD2D9519B639D500BBF336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PocketMonster Tests/PocketMonster Tests-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "PocketMonster Tests/PocketMonster Tests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -1988,6 +2179,15 @@
 			buildConfigurations = (
 				E945183819AF64550032C77D /* Debug */,
 				E945183919AF64550032C77D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9AD2D9619B639D500BBF336 /* Build configuration list for PBXNativeTarget "PocketMonster Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9AD2D9419B639D500BBF336 /* Debug */,
+				E9AD2D9519B639D500BBF336 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

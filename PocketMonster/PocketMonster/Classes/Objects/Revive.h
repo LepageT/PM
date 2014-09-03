@@ -11,6 +11,4 @@
 
 @interface Revive : Item
 
-
-
 @end
