@@ -1658,6 +1658,11 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Thomas Lepage";
+				TargetAttributes = {
+					E9AD2D8319B639D400BBF336 = {
+						TestTargetID = E94515AB19AF64520032C77D;
+					};
+				};
 			};
 			buildConfigurationList = E94515A719AF64520032C77D /* Build configuration list for PBXProject "PocketMonster" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -2075,6 +2080,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PocketMonster.app/PocketMonster";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -2108,6 +2114,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -2116,6 +2123,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PocketMonster.app/PocketMonster";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -2144,6 +2152,7 @@
 				INFOPLIST_FILE = "PocketMonster Tests/PocketMonster Tests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = xctest;
 			};
