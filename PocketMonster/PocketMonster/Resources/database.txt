@@ -1,0 +1,31 @@
+CREATE TABLE Trainer (
+	id INTEGER 			PRIMARY KEY,
+ 	name varchar(25), 
+ 	x INTEGER, 
+ 	y INTEGER, 
+ 	sprite varchar(25), 
+ 	look CHAR(1)		NOT NULL DEFAULT ('M') REFERENCES LookDirection(Direction),
+ 	moneyGive INTEGER, 
+ 	moneyTake INTEGER
+ );
+
+CREATE TABLE LookDirection (
+	Direction 	CHAR(1) PRIMARY KEY NOT NULL,
+	Seq INTEGER
+);
+
+CREATE TABLE NPCMonsters (
+	id INTEGER	PRIMARY KEY,
+	trainerId INTEGER
+	monsterId INTEGER,
+	level INTEGER,
+	itemId INTEGER,
+	FOREIGN KEY(trainerId) REFERENCES Trainer(id)
+);
+
+INSERT INTO LookDirection(Direction, Seq) VALUES ('T', 1);
+INSERT INTO LookDirection(Direction, Seq) VALUES ('R', 2);
+INSERT INTO LookDirection(Direction, Seq) VALUES ('B', 3);
+INSERT INTO LookDirection(Direction, Seq) VALUES ('L', 4);
+
+INSERT INTO TRAINER(name, x, y, sprite, look, moneyGive, moneyTake) VALUES('Test', 0, 0, 'Test.png', 'M', 1000, 200);
