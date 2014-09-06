@@ -206,7 +206,6 @@
 		E9AD2D8719B639D500BBF336 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E94515BB19AF64530032C77D /* Foundation.framework */; };
 		E9AD2D8819B639D500BBF336 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E94515B919AF64530032C77D /* UIKit.framework */; };
 		E9AD2D8E19B639D500BBF336 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9AD2D8C19B639D500BBF336 /* InfoPlist.strings */; };
-		E9AD2D9019B639D500BBF336 /* PocketMonster_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9AD2D8F19B639D500BBF336 /* PocketMonster_Tests.m */; };
 		E9AD2D9919B63B4000BBF336 /* Repository.m in Sources */ = {isa = PBXBuildFile; fileRef = E9AD2D9819B63B4000BBF336 /* Repository.m */; };
 		E9AD2D9E19B63E9000BBF336 /* MonsterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E9AD2D9D19B63E9000BBF336 /* MonsterTest.m */; };
 		E9EC95AF19B1F80D001FF4D1 /* PlayerStats.m in Sources */ = {isa = PBXBuildFile; fileRef = E9EC95AE19B1F80D001FF4D1 /* PlayerStats.m */; };
@@ -645,7 +644,6 @@
 		E9AD2D8519B639D400BBF336 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		E9AD2D8B19B639D500BBF336 /* PocketMonster Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PocketMonster Tests-Info.plist"; sourceTree = "<group>"; };
 		E9AD2D8D19B639D500BBF336 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E9AD2D8F19B639D500BBF336 /* PocketMonster_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PocketMonster_Tests.m; sourceTree = "<group>"; };
 		E9AD2D9119B639D500BBF336 /* PocketMonster Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PocketMonster Tests-Prefix.pch"; sourceTree = "<group>"; };
 		E9AD2D9719B63B4000BBF336 /* Repository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Repository.h; path = Classes/Repository.h; sourceTree = "<group>"; };
 		E9AD2D9819B63B4000BBF336 /* Repository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Repository.m; path = Classes/Repository.m; sourceTree = "<group>"; };
@@ -1517,7 +1515,6 @@
 		E9AD2D8919B639D500BBF336 /* PocketMonster Tests */ = {
 			isa = PBXGroup;
 			children = (
-				E9AD2D8F19B639D500BBF336 /* PocketMonster_Tests.m */,
 				E9AD2D8A19B639D500BBF336 /* Supporting Files */,
 				E9AD2D9D19B63E9000BBF336 /* MonsterTest.m */,
 			);
@@ -1923,7 +1920,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9AD2D9E19B63E9000BBF336 /* MonsterTest.m in Sources */,
-				E9AD2D9019B639D500BBF336 /* PocketMonster_Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
