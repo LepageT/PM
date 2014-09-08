@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>01</key>
+	<dict>
+		<key>Name</key>
+		<string>Pocket Monster Test</string>
+		<key>Moves</key>
+		<array>
+			<dict>
+				<key>Id</key>
+				<integer>1</integer>
+				<key>Quantity</key>
+				<integer>20</integer>
+			</dict>
+			<dict>
+				<key>Id</key>
+				<integer>0</integer>
+				<key>Quantity</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>Id</key>
+				<integer>0</integer>
+				<key>Quantity</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>Id</key>
+				<integer>0</integer>
+				<key>Quantity</key>
+				<integer>0</integer>
+			</dict>
+		</array>
+		<key>Statistics</key>
+		<array/>
+		<key>Item</key>
+		<integer>0</integer>
+		<key>Statut</key>
+		<integer>1</integer>
+	</dict>
+</dict>
+</plist>
